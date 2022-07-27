@@ -66,4 +66,7 @@ def start_game():
         # Just for formatting
         print("\n--------------------------------------\n")
 
-start_game()
+if __name__ == "__main__":
+	start_game()
+else:
+	print("main.py cannot be imported!")

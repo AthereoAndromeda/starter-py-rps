@@ -14,7 +14,5 @@ def get_random_input() -> str:
     return choices[num]
 
 def validate_input(input) -> bool:
-    if input != "R" and input != "P" and input != "S":
-        return False
-    else:
-        return True
+    # Returns True if the input is either R, P, or S
+    return input == "R" or input == "P" or input == "S"
